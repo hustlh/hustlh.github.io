@@ -1,2 +1,2 @@
 # hustlh.github.io
-##my blog
+# 求知若渴，虚心若愚
