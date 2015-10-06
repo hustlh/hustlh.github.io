@@ -4,8 +4,11 @@ title: vim配置
 tags: vim
 ---
 
-一份适合于自己的vim配置总能帮助我们提升工作效率,下面分享一份我目前的vim配置!!!
+一份适合于自己的`vim`配置总能帮助我们提升工作效率,下面分享一份我目前的vim配置!!!
 
+<!--more-->
+### config list
+---
 ```vim
 "Configuration file for vim
 set modelines=0		"CVE-2007-2438
@@ -113,4 +116,8 @@ func LastModified()
 endfunc
 ```
 
+### 配色方案下载
+---
 [`sublime配色方案下载`](https://github.com/crusoexia/vim-monokai.git)
+
+### test
