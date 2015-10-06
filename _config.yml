@@ -153,3 +153,5 @@ totop: true           ## if you want to scroll to top in every post set the valu
 #  enable: true 
 #  id:  ## e.g. "4ac092ad8d749fdc6293" for your tiny search id
 
+gems:
+ - jemoji
