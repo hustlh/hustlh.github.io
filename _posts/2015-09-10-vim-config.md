@@ -2,6 +2,9 @@
 layout: post
 title: vim配置
 tags: vim
+categories: 
+  - program
+  - tools
 ---
 
 一份适合于自己的`vim`配置总能帮助我们提升工作效率,下面分享一份我目前的vim配置!!!
@@ -118,6 +121,8 @@ endfunc
 
 ### 配色方案下载
 ---
-[`sublime配色方案下载`](https://github.com/crusoexia/vim-monokai.git)
+* [monokai配色下载(sublime配色)](https://github.com/crusoexia/vim-monokai.git)
 
-### test
+### 相关插件下载
+---
+* `NERDTree:`[vim官方下载](http://www.vim.org/scripts/script.php?script_id=1658)或[github下载](https://github.com/scrooloose/nerdtree.git)

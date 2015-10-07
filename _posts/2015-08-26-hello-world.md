@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: 你好，世界
-tags: 补码 computer
+tags: computer
 categories: common
 ---
 
