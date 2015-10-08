@@ -8,7 +8,7 @@
        {% if site.author.google_plus %}
 		<a href="https://plus.google.com/{{ site.author.google_plus }}?rel=author" title="{{ site.author.name }}" target="_blank" itemprop="author">{{ site.author.name }}</a>
 		{% else %}
-		<a href="{{ site.baseurl }}/about" title="{{ site.author.name }}" target="_blank" itemprop="author">{{ site.author.name }}</a>
+		<a href="{{ site.baseurl }}/views/about" title="{{ site.author.name }}" target="_blank" itemprop="author">{{ site.author.name }}</a>
 		{% endif %}
   <p class="article-time">
     <time datetime="{{ item.date }}" itemprop="datePublished"> 发表于 {{ item.date | date: "%F" }}</time>
