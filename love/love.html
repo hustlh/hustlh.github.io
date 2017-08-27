@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TO MY LOVE GIRL</title>
+
+<link href="css/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/garden.js"></script><!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>-->
+
+</head>
+
+<body>
+
+<div id="mainDiv">
+	<div id="content">
+		<div id="code" style="margin-top: 0px !important;">
+			<span class="comments">/**</span><br />
+			<span class="space"/><span class="comments">*start: 2005—09-01</span><br />
+			<span class="space"/><span class="comments">*/</span><br />
+			Boy name = <span class="keyword">Mr LIU</span><br />
+			Girl name = <span class="keyword">Mrs XU</span><br />
+			<span class="comments">// They are acquainted with each other. </span><br />
+			At that time, they are only ordinary classmate;<br />
+			<span class="comments">// They are also separated by a lot of desks.</span><br />
+			The boy is shy;<br />
+			<span class="comments">// As time goes on.</span><br />
+			The girl is cute and excellent;<br />
+			<span class="comments">// One day, maybe is junior two.</span><br />
+			The boy discovers the gilr lives in his heart unknowingly;<br />
+			<span class="comments">// But, she maybe don't konwn that. </span><br />
+			<span class="comments">// So there they spend every sunrise and sunset. </span><br />
+			They finish their junior school.<br /><br />
+
+			<span class="comments">// In the senior school, they are classmate again.</span><br />
+			The boy is very happy;<br />
+			Maybe the girl is also very happy;<br />
+			<span class="comments">// In the last year of senior school, the girl fades out from the boy's heart.</span><br />
+			When the boy thinks back on it now, it's a huge mistake.<br />
+			<span class="comments">// Three years senior school goes away again hurriedly.</span><br />
+			At the same time, the girl falls in love river with a handsome boy;<br />
+			But the boy blesses them and wants the gilr could well have been happy forever sincerely;<br /><br />
+
+			<span class="comments">// After several years, they meet again at a party.</span><br />
+			She is cute and gentle as always. And the boy's heart was touched again.<span class="keyword">Because the thing he has known by heart is not only her name, but also her sweet looking.</span></span><br />
+			<span class="comments">// Last year, she tells him that she is single.</span><br />
+			He tells himself, "you don't miss her again in any case";<br />
+			After he knows that, he tries his best to live in her heart.</span><br />
+			<span class="comments">// July 24th is her birthday.</span><br />
+			He buys tickets to her city early and accompanies her celebrating birthday. Although that has lots of regret, it's very sweet;<br/>
+			<span class="comments">// At the last, but not the end...</span><br />
+			Today is Chinese Valentine's Day, and this sweet page only for you, <span class="keyword">my love Jing</span>.
+			<br>
+			<br>
+			And I want to say:<br />
+			<span class="placeholder"/><span class="keyword">Imagining that one day I am holding your hand to propose toast to the guests who attend our wedding.</span><br />
+			<span class="comments">/**</span><br />
+			<span class="space"/><span class="comments">*end: that all to be continue...</span><br />
+			<span class="space"/><span class="comments">*/</span><br />
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					<span class="placeholder"/>Dear静妹子，这是我们相识的时光。
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					恋上你的<span class="keyword">温婉</span>与<span class="keyword">可爱</span><br/>	
+					<div class="signature">- 你浩哥</div>
+				</div>
+			</div>
+			<div id="click">
+				<a href="rose.html" target="_blank" >点我试试<a/>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();
+together.setFullYear(2005, 9, 1);
+together.setHours(20);
+together.setMinutes(0);
+together.setSeconds(0);
+together.setMilliseconds(0);
+
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+
+	adjustCodePosition();
+	$("#code").typewriter();
+
+	// setTimeout(function () {
+	// 	startHeartAnimation();
+	// }, 1000);
+}
+</script>
+
+</body>
+</html>
