@@ -49,6 +49,10 @@ a{
 	display:none
 }
 
+#messages .keyword{
+	color:#ff6ace;
+	font-weight:bold
+}
 #elapseClock .digit{
 	font-family:"digit";
 	font-size:36px;
