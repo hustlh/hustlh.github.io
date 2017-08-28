@@ -151,11 +151,7 @@ function showLoveU() {
 }
 
 function adjustRoseMessagePosition() {
-	if ($("#rose").height() - $("#roseMessage").height() > 0) {
-		$('#roseMessage').css("margin-top", ($("#rose").height() - $("#roseMessage").height()) / 2);
-	}else{
-		$('#roseMessage').css("margin-top", ($("#roseMessage").height() - $("#rose").height()) / 2);
-	}
+	$('#roseMessage').css("margin-top", ($("#rose").height() - $("#roseMessage").height()) / 2);
 }
 
 function showClick() {
@@ -164,7 +160,8 @@ function showClick() {
 }
 
 function adjustClickPosition() {
+	// alert($("#garden").position().left);
 	$('#click').css("position", "absolute");
-	$('#click').css("top", $("#garden").position().top + $("#garden").width() - 90);
-	$('#click').css("left", $("#garden").position().left + $("#garden").height() - 50)
+	$('#click').css("top", $("#garden").position().top + $("#garden").height() - 40);
+	$('#click').css("left", $("#garden").position().left + $("#garden").width() - 90)
 }

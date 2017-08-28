@@ -3,7 +3,7 @@ function drawRose(){
     S = sin,
     P = pow,
     R = random;
-    c.width = 600;
+    c.width = 520;
     c.height = f = 600;
     h = -250;
     function p(a, b, c) {
