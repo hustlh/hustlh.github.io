@@ -53,6 +53,7 @@ a{
 	color:#ff6ace;
 	font-weight:bold
 }
+
 #elapseClock .digit{
 	font-family:"digit";
 	font-size:36px;
@@ -95,7 +96,7 @@ a{
 
 #code{
 	float:left;
-	width:440px;
+	width:460px;
 	height:660px;
 	color:#333;
 	font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";
